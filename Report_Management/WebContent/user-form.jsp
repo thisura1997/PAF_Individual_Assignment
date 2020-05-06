@@ -13,7 +13,7 @@ var atposition=email.indexOf("@");
 var dotposition=email.lastIndexOf(".");  
 
 if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length){  
-  alert("Please enter a valid e-mail address \n atposition:"+atposition+"\n dotposition:"+dotposition);  
+  alert("Please enter a valid e-mail address in order to Proceed \n atposition:"+atposition+"\n dotposition:"+dotposition);  
   }
     
 if (isNaN(a1)){  
